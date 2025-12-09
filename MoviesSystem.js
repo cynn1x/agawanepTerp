@@ -4,7 +4,6 @@ const path = require("path");
 const portNumber = 7003;
 const bodyParser = require("body-parser");
 const { MongoClient, ServerApiVersion } = require("mongodb");
-w
 app.use(bodyParser.urlencoded({ extended: false }));
 app.set("view engine", "ejs");
 app.set("views", path.resolve(__dirname, "templates"));
